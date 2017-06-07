@@ -1,24 +1,110 @@
 
+*{
+   box-sizing:none;
+   font-family: 'Gotham', arial, sans-serif;
+}
+
 body {
 	margin:0;
 	padding:0;
 }
 
+
+.body {
+	width: 100%;	
+}
+
+.image {
+	width: 100%;
+	z-index: -150;
+}
+
+
+.exposure { 
+	background: url(images/camera.jpg); 
+}
+
+.program-details {
+	background: url(images/sarah2.jpg);
+}
+
+.student-work1 {
+	background: url(images/uva.jpg);
+
+}
+
+.student-work2 {
+	background: url(images/lightbulb.jpg);
+}
+
+.student-work3 {
+	background: url(images/original.jpg);
+	height
+}
+
+.student-work4 {
+	background: url(images/steamy.jpg);
+	
+}
+
+.student-work5 {
+	background: url(images/chess.jpg);
+	
+}
+
+.student-work6 {
+	background: url(images/leaf.jpg);
+}
+
+.student-work7 {
+	background: url(images/flag.jpg);
+	
+}
+
 .page {
 	width: 100%;
 	height: 710px;
+	background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    position: relative;
 }
-.image {
-	width: 100%;
-	height: 100%;
+
+.textbox {
+	width: 500px;
+	height: 500px;
+	background-color: rgba(0, 0, 0, .6);
+	position: absolute;
+	right: 700px;
+	bottom: 100px
+}
+
+.button {
+	height: 50px;
+	width: 50px;
+	border: 2px solid white;
+}
+
+h1 {
+	z-index: 1;
+	color: white;
+	text-align: center;
+}
+
+p {
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}
+
+h2 {
+	color: white;
+	text-align: center;
 }
 
 
-*{
-   box-sizing:none;
-   font-family: 'Gotham', arial, sans-serif;
+/* nav bar */
 
-}
 
 .container{
    height:100px;
@@ -57,4 +143,6 @@ body {
   font-family: 'Gotham';
   src: url('GothamMedium.otf') format('embedded opentype');
 }
+
+/* nav bar */
 
