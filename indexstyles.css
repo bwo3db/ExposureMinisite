@@ -81,8 +81,11 @@ body {
 
 .button {
 	height: 50px;
-	width: 50px;
+	width: 150px;
 	border: 2px solid white;
+	position:absolute;
+	left: 60px;
+	bottom: 30px;
 }
 
 h1 {
