@@ -216,5 +216,44 @@ h2 {
 
 @font-face {
   font-family: 'Gotham';
-  src: url('GothamMedium.otf') format('embedded opentype');
+  src: url('GothamMedium.otf') format('opentype');
+}
+@media(max-width:1400px){
+
+}
+
+@media(max-width:1200px){
+   .captionbar{
+      height:500px;
+   }
+}
+
+@media (max-width: 1000px){
+   .col-md-7 {
+       width: 30%;
+       display:inline-block;
+   }
+   .col-md-1{y
+       font-size:14px;
+       width:13%;
+       display:inline-block;
+   }
+}
+
+@media (max-width: 600px){
+   .container{
+      padding:0px;
+   }
+   .col-md-7 {
+       width: 25%;
+       display:inline-block;
+       padding-right:0px;
+   }
+   .col-md-1{
+       padding-left:2px;
+       padding-right:2px;
+       font-size:12px;
+       height:50px;
+   }
+
 }
