@@ -71,12 +71,12 @@ body {
 }
 
 .textbox {
-	width: 500px;
-	height: 500px;
+	width: 550px;
+	height: 400px;
 	background-color: rgba(0, 0, 0, .6);
 	position: absolute;
-	right: 700px;
-	bottom: 100px
+	top: 190px;
+	left: 100px
 }
 
 .button-one{
@@ -84,34 +84,75 @@ body {
 	width: 190px;
 	border: 2px solid white;
 	position:absolute;
-	top: 400px;
-	left: 40px;
+	top: 320px;
+	left: 59px;
+	padding-top:10px;
 }
 
 .button-two {
 	height: 50px;
-	width: 200px;
+	width: 215px;
 	border: 2px solid white;
 	position:absolute;
-	top: 400px;
-	left: 260px;
+	top: 320px;
+	left: 285px;
+	padding-top: 10px;
 }
 
 h1 {
 	z-index: 1;
 	color: white;
 	text-align: center;
+	margin-bottom: 0;
+	font-size: 50px;
 }
 
 p {
 	font-size: 20px;
 	color: white;
 	text-align: center;
+	margin-bottom: 0;
+}
+.text {
+	height: 400px;
+	width: 500px;
+	margin-left: auto;
+	margin-right:auto;
+	border: 12px solid white;
+}
+.photography {
+	margin-bottom:0px
+}
+
+.dates { 
+	font-size: 20px;
+	font-style: italic;
+ }
+
+.perfect {
+	margin-top: 20px;
+	font-size: 20px;
+	margin-left:auto;
+	margin-right:auto;
+	font-style: italic;
+}
+
+.learn {
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.start {
+	margin-top: 15px;
+	margin-left: auto; 
+	margin-right: auto;
 }
 
 h2 {
 	color: white;
 	text-align: center;
+	margin-top:10px;
 }
 
 
