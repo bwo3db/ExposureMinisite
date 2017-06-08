@@ -78,22 +78,22 @@ body {
    top:150px;
 }
 
-.button1 {
+.button-one{
 	height: 50px;
-	width: 150px;
+	width: 190px;
 	border: 2px solid white;
 	position:absolute;
-	left: 60px;
-	bottom: 30px;
+	top: 400px;
+	left: 40px;
 }
 
-.button2 {
+.button-two {
 	height: 50px;
-	width: 150px;
+	width: 200px;
 	border: 2px solid white;
 	position:absolute;
-	left: 60px;
-	bottom: 30px;
+	top: 400px;
+	left: 260px;
 }
 
 h1 {
@@ -112,7 +112,6 @@ h2 {
 	color: white;
 	text-align: center;
 }
-
 
 /* DEMO-SPECIFIC STYLES */
 .typewriter h3 {
@@ -138,9 +137,6 @@ h2 {
   from, to { border-color: transparent }
   50% { border-color: #3187c8 }
 }
-
-
-/* nav bar */
 
 
 .container{
