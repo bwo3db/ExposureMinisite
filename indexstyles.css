@@ -14,7 +14,6 @@ body {
 	z-index: -150;
 }
 
-
 .exposure {
 	background: url(images/camera.jpg);
 }
@@ -127,6 +126,8 @@ h2 {
 .super-bar{
    width:100%;
    background: rgba(0, 0, 0, 0.60);
+   position:fixed;
+   z-index:1000;
 }
 
 .profile{
