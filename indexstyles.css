@@ -2,6 +2,12 @@
 *{
    box-sizing:none;
    font-family: 'Gotham', arial, sans-serif;
+   text-decoration:none;
+}
+
+a{
+   text-decoration:none;
+   color:white;
 }
 
 body {
