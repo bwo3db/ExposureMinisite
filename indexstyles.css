@@ -129,7 +129,7 @@ p {
 	margin-bottom:0px
 }
 
-.dates { 
+.dates {
 	font-size: 20px;
 	font-style: italic;
  }
@@ -150,7 +150,7 @@ p {
 
 .start {
 	margin-top: 15px;
-	margin-left: auto; 
+	margin-left: auto;
 	margin-right: auto;
 }
 
@@ -217,7 +217,7 @@ h2 {
 .super-bar{
    width:100%;
    background: rgba(0, 0, 0, 0.60);
-   position:fixed;
+   /*position:fixed;*/
    z-index:1000;
    color:white;
 }
@@ -241,6 +241,7 @@ h2 {
    height:150px;
    background: rgba(0, 0, 0, 0.60);
    z-index:1000;
+   margin:0;
 }
 
 .col-md-3{
@@ -275,19 +276,14 @@ h2 {
    display:none;
 }
 
-.posFix{
+/*.posFix{
    position:fixed;
    top:0px;
-}
+}*/
 
 @font-face {
   font-family: 'Gotham';
   src: url('GothamMedium.otf') format('opentype');
-}
-
-
-@media(max-width:1400px){
-
 }
 
 @media(max-width:1200px){
@@ -315,7 +311,7 @@ h2 {
    }
 }
 
-@media (max-width: 600px){
+@media (max-width: 700px){
    .container{
       padding:0px;
    }
@@ -327,7 +323,7 @@ h2 {
    .col-md-1{
        padding-left:2px;
        padding-right:2px;
-       font-size:12px;
+       font-size:10px;
        height:50px;
    }
    .textbox{
@@ -335,4 +331,45 @@ h2 {
       width:90%;
    }
 
+   .txtbk{
+      font-size:115%;
+   }
+
+   h2{
+      font-size:125%;
+   }
+
+   .bt{
+      width:175px;
+   }
+
+   .button-one{
+      left:75px;
+   }
+
+   .button-two{
+      left:300px;
+   }
+
+   .logo-top{
+      width:100px;
+      height:100px;
+      margin-top:25px;
+   }
+
+}
+
+
+@media (max-width: 500px){
+   .bt{
+      display:block;
+      margin:0 auto;
+   }
+   .button-two{
+      top:380px;
+      left:75px;
+   }
+   .textbox{
+      height:500px;
+   }
 }
