@@ -1,21 +1,11 @@
 
 $(document).scroll(function() {
-    if($(window).scrollTop() < 1320){
-      $("#superbar").removeClass("posNon");
-      $("#captionbar1").removeClass("posFix");
-      $("#captionbar2").removeClass("posFix");
-      $("#captionbar3").removeClass("posFix");
-      $("#captionbar4").removeClass("posFix");
-      $("#captionbar5").removeClass("posFix");
-      $("#captionbar6").removeClass("posFix");
-      $("#captionbar7").removeClass("posFix");
 
-      $("#superbar").addClass("posFix");
-      $("#captionbar").addClass("posNon");
-     }
-     else if($(window).scrollTop() < 1965){
-        $("#superbar").removeClass("posFix");
-       $("#captionbar1").removeClass("posNon");
+    console.log($(document).scrollTop());
+
+     if($(window).scrollTop() < 1420){
+
+       $("#captionbar1").removeClass("posFix");
        $("#captionbar2").removeClass("posFix");
        $("#captionbar3").removeClass("posFix");
        $("#captionbar4").removeClass("posFix");
@@ -23,93 +13,111 @@ $(document).scroll(function() {
        $("#captionbar6").removeClass("posFix");
        $("#captionbar7").removeClass("posFix");
 
-       $("#superbar").addClass("posNon");
-       $("#captionbar1").addClass("posFix");
-
      }
-     else if($(window).scrollTop() < 2675){
-        $("#superbar").removeClass("posFix");
-       $("#captionbar1").removeClass("posFix");
-       $("#captionbar2").removeClass("posNon");
-       $("#captionbar3").removeClass("posFix");
-       $("#captionbar4").removeClass("posFix");
-       $("#captionbar5").removeClass("posFix");
-       $("#captionbar6").removeClass("posFix");
-       $("#captionbar7").removeClass("posFix");
-
-       $("#superbar").addClass("posNon");
-       $("#captionbar2").addClass("posFix");
-     }
-     else if($(window).scrollTop() < 3385){
-        $("#superbar").removeClass("posFix");
-    $("#captionbar1").removeClass("posFix");
-    $("#captionbar2").removeClass("posFix");
-    $("#captionbar3").removeClass("posNon");
-    $("#captionbar4").removeClass("posFix");
-    $("#captionbar5").removeClass("posFix");
-    $("#captionbar6").removeClass("posFix");
-    $("#captionbar7").removeClass("posFix");
-
-    $("#superbar").addClass("posNon");
-    $("#captionbar3").addClass("posFix");
-
-     }
-     else if($(window).scrollTop() < 4095){
-        $("#superbar").removeClass("posFix");
-      $("#captionbar1").removeClass("posFix");
-      $("#captionbar2").removeClass("posFix");
-      $("#captionbar3").removeClass("posFix");
-      $("#captionbar4").removeClass("posNon");
-      $("#captionbar5").removeClass("posFix");
-      $("#captionbar6").removeClass("posFix");
-      $("#captionbar7").removeClass("posFix");
-
-      $("#superbar").addClass("posNon");
-      $("#captionbar4").addClass("posFix");
-
-     }
-     else if($(window).scrollTop() < 4805){
-        $("#superbar").removeClass("posFix");
-       $("#captionbar1").removeClass("posFix");
-       $("#captionbar2").removeClass("posFix");
-       $("#captionbar3").removeClass("posFix");
-       $("#captionbar4").removeClass("posFix");
-       $("#captionbar5").removeClass("posNon");
-       $("#captionbar6").removeClass("posFix");
-       $("#captionbar7").removeClass("posFix");
-
-       $("#superbar").addClass("posNon");
-       $("#captionbar5").addClass("posFix");
-
-
-     }
-     else if($(window).scrollTop() < 5515){
-        $("#superbar").removeClass("posFix");
-      $("#captionbar1").removeClass("posFix");
-      $("#captionbar2").removeClass("posFix");
-      $("#captionbar3").removeClass("posFix");
-      $("#captionbar4").removeClass("posFix");
-      $("#captionbar5").removeClass("posFix");
-      $("#captionbar6").removeClass("posNon");
-      $("#captionbar7").removeClass("posFix");
-
-      $("#superbar").addClass("posNon");
-      $("#captionbar6").addClass("posFix");
-
-     }
-     else
-     {
-        $("#superbar").removeClass("posFix");
-        $("#captionbar1").removeClass("posFix");
+     else if($(window).scrollTop() < 2130){
+        $("#captionbar1").removeClass("posNon");
         $("#captionbar2").removeClass("posFix");
         $("#captionbar3").removeClass("posFix");
         $("#captionbar4").removeClass("posFix");
         $("#captionbar5").removeClass("posFix");
         $("#captionbar6").removeClass("posFix");
-        $("#captionbar7").removeClass("posNon");
+        $("#captionbar7").removeClass("posFix");
 
-        $("#superbar").addClass("posNon");
-        $("#captionbar7").addClass("posFix");
+       $("#captionbar1").addClass("posFix");
+     }
+     else if($(window).scrollTop() < 2840){
+       $("#captionbar2").removeClass("posNon");
+       $("#captionbar1").removeClass("posFix");
+       $("#captionbar3").removeClass("posFix");
+       $("#captionbar4").removeClass("posFix");
+       $("#captionbar5").removeClass("posFix");
+       $("#captionbar6").removeClass("posFix");
+       $("#captionbar7").removeClass("posFix");
+
+       $("#captionbar1").addClass("posNon");
+       $("#captionbar2").addClass("posFix");
+
+     }
+     else if($(window).scrollTop() < 3550){
+       $("#captionbar3").removeClass("posNon");
+       $("#captionbar2").removeClass("posFix");
+       $("#captionbar1").removeClass("posFix");
+       $("#captionbar4").removeClass("posFix");
+       $("#captionbar5").removeClass("posFix");
+       $("#captionbar6").removeClass("posFix");
+       $("#captionbar7").removeClass("posFix");
+
+       $("#captionbar1").addClass("posNon");
+       $("#captionbar2").addClass("posNon");
+       $("#captionbar3").addClass("posFix");
+
+     }
+     else if($(window).scrollTop() < 4255){
+       $("#captionbar4").removeClass("posNon");
+       $("#captionbar2").removeClass("posFix");
+       $("#captionbar3").removeClass("posFix");
+       $("#captionbar1").removeClass("posFix");
+       $("#captionbar5").removeClass("posFix");
+       $("#captionbar6").removeClass("posFix");
+       $("#captionbar7").removeClass("posFix");
+
+       $("#captionbar1").addClass("posNon");
+       $("#captionbar2").addClass("posNon");
+       $("#captionbar3").addClass("posNon");
+       $("#captionbar4").addClass("posFix");
+
+     }
+     else if($(window).scrollTop() < 4970){
+       $("#captionbar5").removeClass("posNon");
+       $("#captionbar2").removeClass("posFix");
+       $("#captionbar3").removeClass("posFix");
+       $("#captionbar4").removeClass("posFix");
+       $("#captionbar1").removeClass("posFix");
+       $("#captionbar6").removeClass("posFix");
+       $("#captionbar7").removeClass("posFix");
+
+       $("#captionbar1").addClass("posNon");
+       $("#captionbar2").addClass("posNon");
+       $("#captionbar3").addClass("posNon");
+       $("#captionbar4").addClass("posNon");
+       $("#captionbar5").addClass("posFix");
+
+     }
+     else if($(window).scrollTop() < 5680){
+       $("#captionbar6").removeClass("posNon");
+       $("#captionbar2").removeClass("posFix");
+       $("#captionbar3").removeClass("posFix");
+       $("#captionbar4").removeClass("posFix");
+       $("#captionbar5").removeClass("posFix");
+       $("#captionbar1").removeClass("posFix");
+       $("#captionbar7").removeClass("posFix");
+
+       $("#captionbar1").addClass("posNon");
+       $("#captionbar2").addClass("posNon");
+       $("#captionbar3").addClass("posNon");
+       $("#captionbar4").addClass("posNon");
+       $("#captionbar5").addClass("posNon");
+       $("#captionbar6").addClass("posFix");
+
+     }
+     else
+     {
+       $("#captionbar7").removeClass("posNon");
+       $("#captionbar2").removeClass("posFix");
+       $("#captionbar3").removeClass("posFix");
+       $("#captionbar4").removeClass("posFix");
+       $("#captionbar5").removeClass("posFix");
+       $("#captionbar6").removeClass("posFix");
+       $("#captionbar1").removeClass("posFix");
+
+       $("#captionbar1").addClass("posNon");
+       $("#captionbar2").addClass("posNon");
+       $("#captionbar3").addClass("posNon");
+       $("#captionbar4").addClass("posNon");
+       $("#captionbar5").addClass("posNon");
+       $("#captionbar6").addClass("posNon");
+       $("#captionbar7").addClass("posFix");
+
      }
 });
 
@@ -169,7 +177,3 @@ var TxtType = function(el, toRotate, period) {
         css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
         document.body.appendChild(css);
     };
-
-    $(window).on('scroll', function() {
-        console.log( $(this).scrollTop() );
-    });
