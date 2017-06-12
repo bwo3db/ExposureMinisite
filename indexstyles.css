@@ -65,6 +65,7 @@ body {
 
 .student-work7 {
 	background: url(images/flag.jpg);
+    margin-bottom: 0;
 
 }
 
@@ -195,7 +196,8 @@ h2 {
 }
 
 .col-md-7{
-   height:100px;
+   width: 100%;
+    margin: 0 auto;
 }
 
 .logo-top{
@@ -414,6 +416,49 @@ h2 {
    }
 
 }
+
+.footer{
+    width: 100%;
+    margin-top: 0;
+    margin: 0 auto;
+    height: 270px;
+    background-color: #29445a;
+    display: inline-block;
+}
+
+.get{
+    color:white;
+    margin-top: 0;
+    padding-top: 60px;
+    padding-left: 220px;
+    padding-right: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.logo-footer{
+    height:auto;
+    width:13%;
+    margin-top: -80px;
+    margin-left: 50px;
+    padding-bottom:10px;
+    padding-left:20px;
+    display: inline-block;
+}
+
+    
+
+.form-inline{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0px;
+    margin-left: 160px;
+}
+
+.form-group{
+    margin-right: 10px;
+}
+
 
 
 @media (max-width: 500px){
