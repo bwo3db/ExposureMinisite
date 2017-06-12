@@ -311,7 +311,7 @@ h2 {
 
 .program-text1{
 	font-size: 15px;
-	margin-bottom:30px;
+	margin-bottom:20px;
 	text-align: left;
 	margin-left: 40px;
 
@@ -319,7 +319,7 @@ h2 {
 
 .program-text2{
 	font-size: 15px;
-	margin-bottom:30px;
+	margin-bottom:20px;
 	text-align: left;
 	margin-left: 40px;
 
@@ -327,7 +327,7 @@ h2 {
 
 .program-text3{
 	font-size: 15px;
-	margin-bottom:30px;
+	margin-bottom:20px;
 	text-align: left;
 	margin-left: 40px;
 	margin-right: 30px;
@@ -342,13 +342,13 @@ h2 {
 
 .program-text5{
 	font-size: 15px;
-	margin-bottom:30px;
+	margin-bottom:20px;
 	text-align: left;
 	margin-left: 40px;
 }
 
 .program-header{
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 .class-times{
@@ -392,43 +392,39 @@ h2 {
     margin: 0 auto;
     height: 270px;
     background-color: #29445a;
-    display: inline-block;
-}
-
-.get{
-    color:white;
-    margin-top: 0;
-    padding-top: 60px;
-    padding-left: 220px;
-    padding-right: 50px;
-    text-align: center;
-    font-size: 30px;
 }
 
 .logo-footer{
     height:auto;
     width:13%;
-    margin-top: -80px;
-    margin-left: 50px;
-    padding-bottom:10px;
-    padding-left:20px;
     display: inline-block;
 }
 
-    
+.foot-box{
+    width:86%;
+    display:inline-block;
+    vertical-align:middle;
+}
+
+.foot-cont{
+   padding-top:50px;
+}
+
+.get{
+    color:white;
+    text-align: center;
+    font-size: 30px;
+}
 
 .form-inline{
     display: inline-block;
-    vertical-align: middle;
     padding: 0px;
-    margin-left: 160px;
+    margin-left:50px;
 }
 
 .form-group{
     margin-right: 10px;
 }
-
-
 
 @font-face {
   font-family: 'Gotham';
@@ -468,6 +464,9 @@ h2 {
    h1{
       font-size:300%;
    }
+   .program-details-textbox{
+      height:525px;
+   }
 }
 
 @media (max-width: 700px){
@@ -489,16 +488,33 @@ h2 {
    h2{
       font-size:125%;
    }
-
-   .bt{
-      width:175px;
-   }
-
    .logo-top{
       width:100px;
       height:100px;
       margin-top:25px;
+      margin-left:20px;
+   }
+   .bt{
+      width:90%;
+      margin-top:10px;
+   }
+   .button-two{
+      margin-left:2%;
+   }
+   .textbox{
+      height:475px;
+   }
+   .txtbk2{
+      margin-bottom:10px;
+   }
+   .program-details-textbox{
+      height:525px;
    }
 
 }
 
+@media (max-width:600px){
+   .txtbk2,.program-header{
+      margin-left:10px;
+   }
+}
