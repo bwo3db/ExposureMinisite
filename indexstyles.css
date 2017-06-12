@@ -279,6 +279,64 @@ h2 {
    top:0px;
 }
 
+
+.program-details-textbox{
+	width: 580px;
+	height: 460px;
+	background-color: rgba(0, 0, 0, .6);
+	position: absolute;
+	left:200px;
+    top:50px;
+}
+
+.program-text1{
+	font-size: 15px;
+	margin-bottom:30px;
+	text-align: left;
+	margin-left: 40px;
+
+}
+
+.program-text2{
+	font-size: 15px;
+	margin-bottom:30px;
+	text-align: left;
+	margin-left: 40px;
+	
+}
+
+.program-text3{
+	font-size: 15px;
+	margin-bottom:30px;
+	text-align: left;
+	margin-left: 40px;
+	margin-right: 30px;
+}
+
+.program-text4{
+	font-size: 15px;
+	margin-bottom:5px;
+	text-align: left;
+	margin-left: 40px;
+}
+
+.program-text5{
+	font-size: 15px;
+	margin-bottom:30px;
+	text-align: left;
+	margin-left: 40px;
+}
+
+.program-header{
+	margin-bottom: 30px;
+}
+
+.class-times{
+	font-size: 15px;
+	margin-left: 80px;
+	text-align: left;
+	padding-bottom: 20px;
+}
 @font-face {
   font-family: 'Gotham';
   src: url('GothamMedium.otf') format('opentype');
