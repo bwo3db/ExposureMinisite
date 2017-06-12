@@ -33,11 +33,11 @@ body {
 
 .program-details {
 	background: url(images/sarah2.jpg);
+   padding-top:50px;
 }
 
 .student-work1 {
 	background: url(images/uva.jpg);
-
 }
 
 .student-work2 {
@@ -46,17 +46,14 @@ body {
 
 .student-work3 {
 	background: url(images/original.jpg);
-	height
 }
 
 .student-work4 {
 	background: url(images/steamy.jpg);
-
 }
 
 .student-work5 {
 	background: url(images/chess.jpg);
-
 }
 
 .student-work6 {
@@ -66,7 +63,6 @@ body {
 .student-work7 {
 	background: url(images/flag.jpg);
     margin-bottom: 0;
-
 }
 
 .page {
@@ -79,32 +75,50 @@ body {
 }
 
 .textbox {
-	width: 580px;
-	height: 400px;
+   padding:10px;
+	width: 600px;
+   margin-top:50px;
+   margin-left:24.3%;
+	height: 425px;
 	background-color: rgba(0, 0, 0, .6);
-	position: absolute;
+   position:relative;
+   text-align:center;
+/*	position: absolute;
 	left:200px;
-    top:150px;
+    top:150px;*/
 }
 
 .button-one{
+   margin-left:3%;
+   margin-right:1%;
 	height: 50px;
-	width: 190px;
+	/*width: 190px;*/
+   width:45%;
 	border: 2px solid white;
-	position:absolute;
+/*	position:absolute;
 	top: 320px;
-	left: 59px;
+	left: 59px;*/
 	padding-top:10px;
+   display:inline-block;
+
 }
 
 .button-two {
 	height: 50px;
-	width: 215px;
+	/*width: 215px;*/
+   width:45%;
 	border: 2px solid white;
-	position:absolute;
+/*	position:absolute;
 	top: 320px;
-	left: 285px;
+	left: 285px;*/
 	padding-top: 10px;
+   display:inline-block;
+}
+
+.buttonblk{
+   width:95%;;
+   margin:0 auto;
+   margin-top:10px;
 }
 
 h1 {
@@ -121,6 +135,7 @@ p {
 	text-align: center;
 	margin-bottom: 0;
 }
+
 .text {
 	height: 400px;
 	width: 500px;
@@ -128,13 +143,18 @@ p {
 	margin-right:auto;
 	border: 12px solid white;
 }
+
+
 .photography {
-	margin-bottom:0px
+	margin-bottom:0px;
+   color:rgba(255,255,255,.83);
+
 }
 
 .dates {
 	font-size: 20px;
 	font-style: italic;
+   color:rgba(255,255,255,.83);
  }
 
 .perfect {
@@ -143,6 +163,7 @@ p {
 	margin-left:auto;
 	margin-right:auto;
 	font-style: italic;
+   color:rgba(255,255,255,.83);
 }
 
 .learn {
@@ -196,15 +217,15 @@ h2 {
 }
 
 .col-md-7{
-   width: 100%;
-    margin: 0 auto;
+    height:100px;
+    padding-left:0px;
 }
 
 .logo-top{
    height:130px;
    width:140px;
    padding-bottom:10px;
-   padding-left:20px;
+   padding-right:10px;
 }
 
 .col-md-1{
@@ -243,7 +264,8 @@ h2 {
 }
 
 .col-md-3{
-   padding-left:10px;
+   padding-left:0px;
+   padding-right:0px;
    padding-top:10px;
    width:27%;
    display:inline-block;
@@ -281,14 +303,10 @@ h2 {
    top:0px;
 }
 
-
 .program-details-textbox{
-	width: 580px;
+   margin-top:50px;
 	height: 460px;
 	background-color: rgba(0, 0, 0, .6);
-	position: absolute;
-	left:200px;
-    top:50px;
 }
 
 .program-text1{
@@ -304,7 +322,7 @@ h2 {
 	margin-bottom:30px;
 	text-align: left;
 	margin-left: 40px;
-	
+
 }
 
 .program-text3{
@@ -339,82 +357,33 @@ h2 {
 	text-align: left;
 	padding-bottom: 20px;
 }
-@font-face {
-  font-family: 'Gotham';
-  src: url('GothamMedium.otf') format('opentype');
+
+.pro1{
+   z-index:10;
 }
 
-@media(max-width:1200px){
-   .captionbar{
-      height:200px;
-   }
+.pro2{
+   z-index:15;
 }
 
-@media (max-width: 1000px){
-   .col-md-7 {
-       width: 30%;
-       display:inline-block;
-   }
-   .col-md-1{
-       font-size:14px;
-       width:13%;
-       display:inline-block;
-   }
-   .textbox{
-      left:15%;
-      top:20%;
-   }
-   .slogantxt{
-      display:none;
-   }
+.pro3{
+   z-index:20;
 }
 
-@media (max-width: 700px){
-   .container{
-      padding:0px;
-   }
-   .col-md-7 {
-       width: 25%;
-       display:inline-block;
-       padding-right:0px;
-   }
-   .col-md-1{
-       padding-left:2px;
-       padding-right:2px;
-       font-size:10px;
-       height:50px;
-   }
-   .textbox{
-      left:3%;
-      width:90%;
-   }
+.pro4{
+   z-index:25;
+}
 
-   .txtbk{
-      font-size:115%;
-   }
+.pro5{
+   z-index:30;
+}
 
-   h2{
-      font-size:125%;
-   }
+.pro6{
+   z-index:35;
+}
 
-   .bt{
-      width:175px;
-   }
-
-   .button-one{
-      left:75px;
-   }
-
-   .button-two{
-      left:300px;
-   }
-
-   .logo-top{
-      width:100px;
-      height:100px;
-      margin-top:25px;
-   }
-
+.pro7{
+   z-index:40;
 }
 
 .footer{
@@ -461,16 +430,75 @@ h2 {
 
 
 
-@media (max-width: 500px){
-   .bt{
-      display:block;
-      margin:0 auto;
-   }
-   .button-two{
-      top:380px;
-      left:75px;
-   }
-   .textbox{
-      height:500px;
+@font-face {
+  font-family: 'Gotham';
+  src: url('GothamMedium.otf') format('opentype');
+}
+
+@media(max-width:1200px){
+   .captionbar{
+      height:200px;
    }
 }
+
+@media (max-width: 1000px){
+   .col-md-7 {
+       width: 30%;
+       display:inline-block;
+   }
+   .col-md-1{
+       font-size:14px;
+       width:13%;
+       display:inline-block;
+   }
+   .slogantxt{
+      display:none;
+   }
+   .textbox{
+      width:60%;
+      margin-left:20%;
+      height:350px;
+   }
+   .txtbk{
+      font-size:115%;
+   }
+   .txtbk2{
+      font-size:90%;
+   }
+   h1{
+      font-size:300%;
+   }
+}
+
+@media (max-width: 700px){
+   .container{
+      padding:0px;
+   }
+   .col-md-7 {
+       width: 25%;
+       display:inline-block;
+       padding-right:0px;
+   }
+   .col-md-1{
+       padding-left:2px;
+       padding-right:2px;
+       font-size:10px;
+       height:50px;
+   }
+
+   h2{
+      font-size:125%;
+   }
+
+   .bt{
+      width:175px;
+   }
+
+   .logo-top{
+      width:100px;
+      height:100px;
+      margin-top:25px;
+   }
+
+}
+
