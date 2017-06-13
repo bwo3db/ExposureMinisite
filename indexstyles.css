@@ -1,12 +1,21 @@
 *{
    box-sizing:none;
-   font-family: 'GothamLight', arial, sans-serif;
+   font-family: 'Gotham', arial, sans-serif;
    text-decoration:none;
 }
 
 a{
    text-decoration:none;
    color:white;
+}
+
+a:hover{
+   color:#44afff;
+   text-decoration:none;
+}
+
+a.typewrite{
+   margin-left:0;
 }
 
 body {
@@ -75,18 +84,14 @@ body {
 }
 
 .textbox {
-    width: 600px;
-    margin-top:120px;
-    margin-left:15%;
-	height: 360px;
+   padding:10px;
+	width: 600px;
+   margin-top:50px;
+   margin-left:24.3%;
+	height: 350px;
 	background-color: rgba(0, 0, 0, .6);
-    position:relative;
-    text-align:center;
-    padding-left: 30px;
-    padding-top: 1px;
-/*	position: absolute;
-	left:200px;
-    top:150px;*/
+   position:relative;
+   text-align:left;
 }
 
 /*.button-one{
@@ -116,9 +121,10 @@ body {
 }
 
 .buttonblk{
-   width:95%;;
-   margin:0 auto;
-   margin-top:30px;
+   width:95%;
+   margin-top:20px;
+   margin-left:20px;
+
 }
 
 h1 {
@@ -147,12 +153,9 @@ p {
 
 
 .photography {
-	margin-bottom:30px;
-    color:white;
-    margin-top: 0px;
-    text-align: left;
-    font-size: 15px;
-    margin-left: 5px;
+	margin-bottom:0px;
+   color:white;
+   margin-left:0px;
 }
 
 .dates {
@@ -210,6 +213,9 @@ h2 {
     display: inline;
 }
 
+span{
+   color:#44afff;
+}
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
@@ -255,12 +261,10 @@ h2 {
 }
 
 .programs{
-    right:20px;
+    right:5px;
 }
 
-.cont{
-    right:20px;
-}
+
 .super-bar{
    width:100%;
    background: rgba(0, 0, 0, 0.60);
@@ -478,6 +482,32 @@ h2 {
     box-sizing:inherit;
 }
 
+.bt:hover{
+   background:rgba(0,0,0,0);
+   color:#3187c8;
+   box-shadow: inset 0 0 0 3px #3187c8;
+   border:0;
+}
+
+.exp{
+   text-align:left;
+   margin-left:20px;
+}
+
+.txtbk{
+   text-align:left;
+   margin-left:20px;
+}
+
+.button-one{
+   margin-left:20px;
+}
+
+.bttxt{
+   text-align:center;
+   margin-left:0;
+}
+
 @font-face {
   font-family: 'Gotham';
   src: url('GothamMedium.otf') format('opentype');
@@ -612,5 +642,9 @@ h2 {
    }
    .footer{
       height:600px;
+   }
+   .txtbk,.bttxt, .exp{
+      text-align:center;
+      margin-left:0px;
    }
 }
