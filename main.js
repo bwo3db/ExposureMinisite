@@ -1,4 +1,6 @@
 
+
+
 $(document).scroll(function() {
 
     console.log($(document).scrollTop());
@@ -131,7 +133,7 @@ $(document).scroll(function() {
        $("#captionbar4").addClass("posNon");
        $("#captionbar5").addClass("posNon");
        $("#captionbar6").addClass("posNon");
-       $("#captionbar7").addClass("posFix");
+       $("#captionbar7").addClass("posNon");
      }
 });
 
