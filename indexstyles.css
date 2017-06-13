@@ -139,7 +139,7 @@ p {
 	font-size: 18px;
 	color: white;
 	text-align: center;
-	margin-bottom: 0; 
+	margin-bottom: 0;
 }
 
 .text {
@@ -458,10 +458,11 @@ span{
 
 .form-inline{
     margin-top:5px;
-    margin-left:15%;
+    margin-left:14%;
     display: inline-block;
     padding: 0px;
-    width:100%;}
+    width:91%;
+}
 
 .btn{
     background-color: #1E73BE;
@@ -474,7 +475,7 @@ span{
     padding-bottom: 5px;
     color: white;
     transition: background-color 0.1s ease;
-    } 
+    }
 
 .form-group{
     margin-right: 10px;
@@ -566,7 +567,7 @@ span{
    .textbox{
       width:60%;
       margin-left:20%;
-      height:350px;
+      /*height:350px;*/
    }
    .txtbk{
       font-size:115%;
@@ -597,9 +598,6 @@ span{
       margin-left:10%;
       margin-right:10%;
    }
-   .captionbar{
-      height:275px;
-   }
    .container{
       padding:0px;
    }
@@ -628,7 +626,7 @@ span{
       margin-left:2%;
    }
    .textbox{
-      height:475px;
+      /*height:475px;*/
    }
    .txtbk2{
       margin-bottom:10px;
@@ -642,6 +640,7 @@ span{
 @media (max-width:600px){
    .txtbk2,.program-header{
       margin-left:10px;
+      padding:0;
    }
    .footer{
       height:600px;
@@ -650,4 +649,45 @@ span{
       text-align:center;
       margin-left:0px;
    }
+   .col-md-3{
+      width:100%;
+      display:block;
+      padding:0;
+      margin:0;
+      margin-right:0;
+   }
+   .profileImg{
+      width:40%;
+      margin-top:25px;
+      margin-left:30%;
+      margin-right:30%;
+   }
+   .col-md-9{
+      width:100%;
+      display:block;
+   }
+   h2, h6{
+      text-align:center;
+      font-size:100%;
+   }
+   h2{
+      font-size:150%;
+   }
+   .captionbar{
+      height:400px;
+   }
 }
+
+   @media (max-width:400px){
+      .captionbar{
+         height:425px;
+      }
+      .expro{
+         font-size:250%;
+      }
+      .col-md-1{
+         width:10%;
+         font-size:8px;
+      }
+
+   }
