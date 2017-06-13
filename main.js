@@ -100,8 +100,7 @@ $(document).scroll(function() {
        $("#captionbar6").addClass("posFix");
 
      }
-     else
-     {
+     else if ($(window).scrollTop() < 6115){
        $("#captionbar7").removeClass("posNon");
        $("#captionbar2").removeClass("posFix");
        $("#captionbar3").removeClass("posFix");
@@ -117,7 +116,22 @@ $(document).scroll(function() {
        $("#captionbar5").addClass("posNon");
        $("#captionbar6").addClass("posNon");
        $("#captionbar7").addClass("posFix");
+     }
+     else{
+       $("#captionbar2").removeClass("posFix");
+       $("#captionbar3").removeClass("posFix");
+       $("#captionbar4").removeClass("posFix");
+       $("#captionbar5").removeClass("posFix");
+       $("#captionbar6").removeClass("posFix");
+       $("#captionbar1").removeClass("posFix");
 
+       $("#captionbar1").addClass("posNon");
+       $("#captionbar2").addClass("posNon");
+       $("#captionbar3").addClass("posNon");
+       $("#captionbar4").addClass("posNon");
+       $("#captionbar5").addClass("posNon");
+       $("#captionbar6").addClass("posNon");
+       $("#captionbar7").addClass("posFix");
      }
 });
 
