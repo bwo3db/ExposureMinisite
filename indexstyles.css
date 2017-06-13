@@ -1,6 +1,6 @@
 *{
    box-sizing:none;
-   font-family: 'Gotham', arial, sans-serif;
+   font-family: 'GothamLight', arial, sans-serif;
    text-decoration:none;
 }
 
@@ -75,62 +75,63 @@ body {
 }
 
 .textbox {
-   padding:10px;
-	width: 600px;
-   margin-top:50px;
-   margin-left:24.3%;
-	height: 425px;
+    width: 600px;
+    margin-top:120px;
+    margin-left:15%;
+	height: 360px;
 	background-color: rgba(0, 0, 0, .6);
-   position:relative;
-   text-align:center;
+    position:relative;
+    text-align:center;
+    padding-left: 30px;
+    padding-top: 1px;
 /*	position: absolute;
 	left:200px;
     top:150px;*/
 }
 
-.button-one{
-   margin-left:3%;
-   margin-right:1%;
-	height: 50px;
-	/*width: 190px;*/
-   width:45%;
-	border: 2px solid white;
-/*	position:absolute;
-	top: 320px;
-	left: 59px;*/
-	padding-top:10px;
-   display:inline-block;
-
-}
+/*.button-one{
+    background-color: #1E73BE;
+    width: 30%;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    transition: background-color 0.1s ease;
+    display:inline-block;
+}*/
 
 .button-two {
-	height: 50px;
-	/*width: 215px;*/
-   width:45%;
-	border: 2px solid white;
-/*	position:absolute;
-	top: 320px;
-	left: 285px;*/
-	padding-top: 10px;
-   display:inline-block;
+  background-color: #1E73BE;
+    width: 40%;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    transition: background-color 0.1s ease;
+    margin-top: 30px;
 }
 
 .buttonblk{
    width:95%;;
    margin:0 auto;
-   margin-top:10px;
+   margin-top:30px;
 }
 
 h1 {
 	z-index: 1;
 	color: white;
-	text-align: center;
+	text-align:left ;
 	margin-bottom: 0;
-	font-size: 50px;
+	font-size: 60px;
+    padding-bottom: 5px;
 }
 
 p {
-	font-size: 20px;
+	font-size: 15px;
 	color: white;
 	text-align: center;
 	margin-bottom: 0;
@@ -146,15 +147,18 @@ p {
 
 
 .photography {
-	margin-bottom:0px;
-   color:rgba(255,255,255,.83);
-
+	margin-bottom:30px;
+    color:white;
+    margin-top: 0px;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 5px;
 }
 
 .dates {
-	font-size: 20px;
+	font-size: 15px;
 	font-style: italic;
-   color:rgba(255,255,255,.83);
+    color:white;
  }
 
 .perfect {
@@ -163,25 +167,33 @@ p {
 	margin-left:auto;
 	margin-right:auto;
 	font-style: italic;
-   color:rgba(255,255,255,.83);
+    color:white;
 }
 
-.learn {
-	margin-top: 20px;
+.learn txtbk {
+	margin-top: 40px;
 	margin-right: auto;
 	margin-left: auto;
+    padding-top: 20px;
+    line-height: 20px;
 }
 
-.start {
+.start txtbk {
 	margin-top: 15px;
 	margin-left: auto;
 	margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.typewrite{
+    display:inline;
 }
 
 h2 {
 	color: white;
-	text-align: center;
+	text-align: left;
 	margin-top:10px;
+    font-size:30px;
 }
 
 /* DEMO-SPECIFIC STYLES */
@@ -195,6 +207,7 @@ h2 {
   animation:
     typing 2s steps(30, end),
     blink-caret .5s step-end infinite;
+    display: inline;
 }
 
 /* The typing effect */
@@ -219,11 +232,12 @@ h2 {
 .col-md-7{
     height:100px;
     padding-left:0px;
+    
 }
 
 .logo-top{
    height:130px;
-   width:140px;
+   width:auto;
    padding-bottom:10px;
    padding-right:10px;
 }
@@ -234,6 +248,13 @@ h2 {
    white-space: nowrap;
 }
 
+.programs{
+    right:20px;
+}
+
+.cont{
+    right:20px;
+}
 .super-bar{
    width:100%;
    background: rgba(0, 0, 0, 0.60);
@@ -304,7 +325,7 @@ h2 {
 }
 
 .program-details-textbox{
-   margin-top:50px;
+    margin-top:50px;
 	height: 460px;
 	background-color: rgba(0, 0, 0, .6);
 }
@@ -349,6 +370,7 @@ h2 {
 
 .program-header{
 	margin-bottom: 20px;
+    font-size: 40px;
 }
 
 .class-times{
