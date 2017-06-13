@@ -120,6 +120,8 @@ body {
     margin-top: 30px;
 }
 
+
+
 .buttonblk{
    width:95%;
    margin-top:20px;
@@ -340,6 +342,10 @@ span{
     margin-top:50px;
 	height: 460px;
 	background-color: rgba(0, 0, 0, .6);
+}
+
+.perks{
+    text-decoration: underline;
 }
 
 .program-text1{
@@ -680,6 +686,10 @@ span{
    h2{
       font-size:150%;
    }
+    
+    h6{
+        display:none;
+    }
    .captionbar{
       height:400px;
    }
@@ -687,7 +697,7 @@ span{
 
    @media (max-width:400px){
       .captionbar{
-         height:425px;
+         height:300px;
       }
       .expro{
          font-size:250%;
