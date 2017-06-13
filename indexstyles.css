@@ -219,6 +219,7 @@ h2 {
 .col-md-7{
     height:100px;
     padding-left:0px;
+    width:50%;
 }
 
 .logo-top{
@@ -229,9 +230,14 @@ h2 {
 }
 
 .col-md-1{
+   display:inline-block;
+   text-align:center;
    height: 100px;
    line-height: 100px;
    white-space: nowrap;
+   padding:0;
+   margin-left:5px;
+   margin-right:5px;
 }
 
 .super-bar{
@@ -386,12 +392,17 @@ h2 {
    z-index:40;
 }
 
+#captionbar7, .container{
+   z-index:41;
+}
+
 .footer{
     width: 100%;
     margin-top: 0;
     margin: 0 auto;
     height: 300px;
     background-color: #29445a;
+    z-index:10000;
 }
 
 .logo-footer{
@@ -449,18 +460,18 @@ h2 {
    .captionbar{
       height:200px;
    }
-}
-
-@media (max-width: 1000px){
-   .footer{
-      height:500px;
-   }
    .logo-footer{
       width:22%;
    }
    .foot-box{
       width:75%;
    }
+   .footer{
+      height:500px;
+   }
+}
+
+@media (max-width: 1000px){
    .profileImg{
       width:70%;
    }
@@ -480,7 +491,6 @@ h2 {
    }
    .col-md-1{
        font-size:14px;
-       width:13%;
        display:inline-block;
    }
    .slogantxt{
@@ -509,6 +519,17 @@ h2 {
 }
 
 @media (max-width: 700px){
+   .logo-footer{
+      padding-top:25px;
+      display:block;
+      margin:0 auto;
+      width:150px;
+   }
+   .foot-box{
+      width:80%;
+      margin-left:10%;
+      margin-right:10%;
+   }
    .captionbar{
       height:275px;
    }
@@ -554,5 +575,8 @@ h2 {
 @media (max-width:600px){
    .txtbk2,.program-header{
       margin-left:10px;
+   }
+   .footer{
+      height:600px;
    }
 }
