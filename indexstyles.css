@@ -157,6 +157,7 @@ p {
     margin-bottom:0px;
    color:white;
    margin-left:0px;
+
 }
 
 .dates {
@@ -377,6 +378,12 @@ span{
 	margin-bottom:20px;
 	text-align: left;
 	margin-left: 40px;
+}
+.program-text6{
+    text-align: left;
+    margin-left: 40px;
+    font-size:15px;
+
 }
 
 .program-header{
