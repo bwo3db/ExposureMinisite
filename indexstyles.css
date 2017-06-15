@@ -1,12 +1,15 @@
 *{
    box-sizing:none;
-   font-family: 'Gotham', arial, sans-serif;
    text-decoration:none;
 }
 
 a{
    text-decoration:none;
    color:white;
+}
+
+h6{
+   font-family: 'GothamLt', arial, sans-serif;;
 }
 
 a:hover{
@@ -21,6 +24,7 @@ a.typewrite{
 body {
 	margin:0;
 	padding:0;
+   font-family: 'Gotham', arial, sans-serif;
 }
 
 .container{
@@ -154,12 +158,12 @@ p {
 
 
 .photography {
-    padding-top:10px;
+    font-family: 'GothamLt', arial, sans-serif;
     padding-bottom:0px;
     margin-bottom:0px;
-   color:white;
-   margin-left:0px;
-
+    color:white;
+    margin-left:0px;
+    letter-spacing: .06em;
 }
 
 .dates {
@@ -530,6 +534,11 @@ span{
   src: url('GothamMedium.otf') format('opentype');
 }
 
+@font-face {
+  font-family: 'GothamLt';
+  src: url('GothamLight.otf') format('opentype');
+}
+
 @media(max-width:1200px){
    .form-inline{
       margin-left:10px;
@@ -686,18 +695,18 @@ span{
    h2{
       font-size:150%;
    }
-    
+
     h6{
         display:none;
     }
    .captionbar{
-      height:400px;
+      height:350px;
    }
 }
 
    @media (max-width:400px){
       .captionbar{
-         height:300px;
+         height:275px;
       }
       .expro{
          font-size:250%;
